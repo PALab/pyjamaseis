@@ -4,7 +4,7 @@ The current version is v2.0 (2016). v1.0 written by Saketh Vishnubhotla, 2014.
 
 PyjAmaseis should run as a *.py file on Windows, Linux, and Mac operating systems, provided Python 2 and the correct modules
 have been installed (many should already be in the python libraries if python is installed). The current version can be downloaded
-and run via the python command at the terminal. Note that PyjAmaseis has been written as helicorder software for the TC-1 seismometer,
+and run via the python command at the terminal. Ensure that the file 'icons' is in the current working directory. Note that PyjAmaseis has been written as helicorder software for the TC-1 seismometer,
 but could be developed to accommodate different models of amateur seismometers.
 
 The bash shell script module-installer.sh can be run as 'sudo bash module-installer.sh' on linux operating systems to install most of the
