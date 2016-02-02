@@ -65,10 +65,10 @@ class MyFrame4(wx.Frame):
         # begin wxGlade: MyFrame4.__init__
         kwds["style"] = wx.DEFAULT_FRAME_STYLE
         wx.Frame.__init__(self, *args, **kwds)
-        self.iconFile = "icon.ico"
+        self.iconFile = "icons/icon.ico"
         self.icon = wx.Icon(self.iconFile, wx.BITMAP_TYPE_ICO)
         self.SetIcon(self.icon)
-        self.bitmap_1 = wx.StaticBitmap(self, wx.ID_ANY, wx.Bitmap("logo.gif", wx.BITMAP_TYPE_ANY))
+        self.bitmap_1 = wx.StaticBitmap(self, wx.ID_ANY, wx.Bitmap("icons/logo.gif", wx.BITMAP_TYPE_ANY))
         self.label_4 = wx.StaticText(self, wx.ID_ANY, ("Station Information\n"))
         self.label_6 = wx.StaticText(self, wx.ID_ANY, ("Station ID:"))
         self.text_ctrl_2 = wx.TextCtrl(self, wx.ID_ANY, "")
@@ -189,7 +189,7 @@ class selectionWindow(wx.Frame):
         # begin wxGlade: SecondaryWindow.__init__
         kwds["style"] = wx.DEFAULT_FRAME_STYLE
         wx.Frame.__init__(self, *args, **kwds)
-        self.iconFile = "icon.ico"
+        self.iconFile = "icons/icon.ico"
         self.icon = wx.Icon(self.iconFile, wx.BITMAP_TYPE_ICO)
         self.SetIcon(self.icon)
         self.panel_2 = wx.Panel(self, wx.ID_ANY)
@@ -631,7 +631,7 @@ def Plotting(queue):
     
     root = tk.Tk()
     root.wm_title("PyAmaseis v1.0")
-    root.iconbitmap(r'icon.ico')
+    root.iconbitmap(r'icons/icon.ico')
     root.wm_state('zoomed')
     
     graphHeightConst = 2500
